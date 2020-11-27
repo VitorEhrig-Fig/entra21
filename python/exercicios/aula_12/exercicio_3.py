@@ -34,12 +34,11 @@ def tipo_triangulo():
     elif triangulo[0] == triangulo[1] or triangulo[1] == triangulo[2] or triangulo[2] == triangulo[0]:
         print('é um triângulo isóseles')
     
-    elif triangulo[0] != triangulo[1] and triangulo[1] != triangulo[2] and triangulo[2] != triangulo[0]:
+    elif triangulo[0] != triangulo[1] != triangulo[2]:
         print('é um triângulo escaleno')
 
-def funcao(): # poderia chamar fora ai as funcoes ficariam mais portaveis
-    lados_triandulo()
-    descobrindo_se_e_triangulo()
-    tipo_triangulo()
+# poderia chamar fora ai as funcoes ficariam mais portaveis
 
-funcao()
+lados_triandulo()
+descobrindo_se_e_triangulo()
+tipo_triangulo()

@@ -10,10 +10,10 @@ def area_pintura():
 
 def funcao():
     soma = 0
-    while = tinta_nescessaria <= soma: # acho que precisa de um == aqui
-    global tinta_deszoito_total # faltou indentar o codigo
-    soma =+ 18
-    tinta_deszoito_total = soma/18
+    while = tinta_nescessaria == soma: # acho que precisa de um == aqui
+        global tinta_deszoito_total # faltou indentar o codigo
+        soma =+ 18
+        tinta_deszoito_total = soma/18
 
     while tinta_nescessaria <= soma:
         global tinta_treis_e_seis_total

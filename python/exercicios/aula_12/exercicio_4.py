@@ -16,7 +16,11 @@ def divisivel(x, y):
 
 def separando_os_numeros(): # valtando implementar for
     for i in numeros:
-        pass
+        if i%2 != 0 or i == 2:
+            if i%3 != 0 or i == 3:
+                if i%5 != 0 or i == 5:
+                    if i%7 != 0 or i == 7:
+                        numeros_primos.append(numeros.pop(numeros.index(i)))
 
         
 def funcao():

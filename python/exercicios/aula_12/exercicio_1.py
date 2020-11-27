@@ -6,14 +6,10 @@ def ponto():
                     '>>> '))
     bruto = salario_hr * horas
 
-def porcentagem(bruto): # não seria nescessario esta variavel aqui
-    global porcentagem
-    porcentagem = bruto/100
-    porcentagem = float(porcentagem)
-
 def funcao():
     ponto()
-    porcentagem(bruto) # bruto ja é um variavel global
+    porcentagem = bruto/100
+    porcentagem = float(porcentagem) # bruto ja é um variavel global
     imposto_renda = porcentagem*11
     inss = porcentagem*8
     sindicato = porcentagem*5
