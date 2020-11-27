@@ -14,7 +14,7 @@ def divisivel(x, y):
     divisao = x%y
     return divisao
 
-def separando_os_numeros():
+def separando_os_numeros(): # valtando implementar for
     for i in numeros:
         pass
 
