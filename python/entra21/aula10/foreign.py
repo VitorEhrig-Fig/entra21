@@ -30,7 +30,7 @@ print('Tabelas criadas com sucesso.')
 
 cursor.execute("""
     INSERT INTO cidades (cidade, uf)
-        VALUES ("Blumenau","SC")
+        VALUES ("Plumenau","SC")
 """)
 
 cursor.execute("""
