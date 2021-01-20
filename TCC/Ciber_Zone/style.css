@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciber Zone</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<ul>
+    <div style="position: center;">
+        <li><img style="width:30; height:60; padding-left: 1cm; position: left;" src="fotos/logo1.png"></li>
+        <div class="links">
+            <li><a href="#"><p>Artigos</p></a></li>
+            <li><a href="#"><p>Tutoriais</p></a></li>
+            <li><a href="#"><p>Fórum</p></a></li>
+            <li><a href="#"><p>Sobre</p></a></li>
+        </div>
+        <li style="padding-left: 10px; float: left;"><input type="text" name="pesquisa" placeholder="pesquisa"></li>
+        <li><img style="border-radius: 100%" src="fotos/avatar.png"></li>
+    </div>
+</ul>
+
+<header>
+    <div class="img-wrapper">
+        <img src="fotos/cabecalho.jpg">
+    </div>
+    <div class="banner">
+        <h1>CyberZone</h1>
+        <p>A website for programming students</p>
+    </div>
+</header>
+ 
+<table border="0" width="100%" cellpadding="10">
+<tr>
+    <td width="80%" valign="top" background-color="#111">
+        <h2 style="text-align: center;">Tutoriais</h2>
+        </br>
+        </br>
+        </br>
+        </br>
+        <div class="cursos">
+        <img src="fotos/python.png"><img src="fotos/python.png"><img src="fotos/python.png"><img src="fotos/python.png"><img src="fotos/python.png"><img src="fotos/python.png"><img src="fotos/python.png">
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+        </br>
+        <h2 style="text-align: center; background-color: rgb(185, 107, 19);"><p style="font-size: 2.5rem;">Fórum</p></h2>
+        
+    </td>
+    <td width="20%" valign="top" style="background-color: #363636;">
+        <h2 style="text-align: center;">Artigos</h2>
+        <div class="container-artigo">
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+            <div class="artigo">
+                <a href="">TITLE</a>
+            </div>
+        </div>
+    
+    </td>
+</tr>
+</table>
+<ul>
+    <div class="links" style="padding-left: 20%;">
+        <li><a href="#"><p>Ajuda</p></a></li>
+        <li><a href="#"><p>Blog</p></a></li>
+        <li><a href="#"><p>Sobre</p></a></li>
+        <li><a href="#"><p>Cadastrar</p></a></li>
+    </div>
+</ul>
+
+</body>
+</html>
